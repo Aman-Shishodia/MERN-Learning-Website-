@@ -1,0 +1,472 @@
+
+/* ############ Header Style ##### */
+nav{
+    height: 10vh;
+    background-color: slategray;
+    box-shadow: 5px 5px 10px 10px black;
+}
+nav h1{
+    padding: 20px 100px;
+}
+
+/* ################ Root Page ####### */
+
+.root-page{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+     url("C:\Users\daksh\Desktop\Project\client\public\root.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.root-page-content{
+    width: 60vw;
+    height: 90vh;
+}
+.root-page-content > h1{
+    font-size: 50px;
+    padding-top: 150px;
+    padding-left: 80px;
+    color: white;
+    text-transform: uppercase;
+}
+.root-page-content p{
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+.root-btn{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.root-page-content span{
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+.page{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    
+}
+.page-left{ 
+    width: 65vw;
+    text-align: center;
+
+}
+
+.page-left-content{
+    position: relative;
+    top: 30%;
+}
+.page-left-content h1{
+    font-weight: 700;
+    color: #2f55a5;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.page-left-content p{
+    margin-top: 50px;
+}
+form input{
+    height: 7vh;
+    width: 30vw;
+    margin: 10px;
+    font-size: large;
+    font-weight: 500;
+    background-color: transparent;
+    padding-left: 10px
+}
+
+.page-signin-btn{
+    padding: 15px 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color: #2f55a5;;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+
+}
+.page-right{
+    background-image: url("C:\Users\daksh\Desktop\Website\Promain'\do-it-app\public\login-pattern.png");
+    width: 35vw;
+    background-color: #3070bb;
+    color: #FFFFFF;
+}
+.page-right-content{
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+.page-right-content h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+.page-right-content h3{
+    font-weight: 400;
+    padding: 5px;
+}
+
+.page-signup-btn{
+    padding: 15px 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.register-content{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+.register-left{
+    width: 35vw;
+    background-color: #3070bb;
+    color: #FFFFFF;
+    background-image: url("C:\Users\daksh\Desktop\Website\Promain'\do-it-app\public\login-pattern.png");
+}
+.register-left-content{
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+.register-left h1{
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.register-left p{
+    margin-top: 50px;
+}
+.register-left h3{
+    font-weight: 400;
+    padding: 5px;
+}
+.register-signin-btn{
+    padding: 15px 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color: transparent;  
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+
+}
+.register-right{
+    width: 65%;
+    text-align: center;
+    position: relative;
+}
+.register-right-content{
+    position: relative;
+    top: 30%;   
+}
+.register-right h1{
+    font-weight: 700;
+    color: #2f55a5;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.register-right h4{
+    margin-bottom: 5px;
+}
+.register-right p{
+    margin-top: 50px;
+}
+form input{
+    height: 7vh;
+    width: 20vw;
+    margin: 10px;
+    font-size: large;
+    font-weight: 500;
+    opacity: 0.5;
+    background-color: transparent;
+    padding-left: 10px;
+}
+.register-signup-btn{
+    padding: 15px 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    background-color: #2f55a5;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+/* ###################Home Style############ */
+.home-head{
+    height: 8vh;
+    background-color: slategray;
+}
+.home-head h1{
+    display: inline;
+    margin: 10px 20px;
+}
+.home-head button{
+    float: right;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+.home-front{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+     url("C:\Users\daksh\Desktop\Project\client\public\home1.jpg");
+     background-size: 100% 100%;
+    height: 90vh;
+}
+.home-front-content{
+    width: 70vw;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.home-front-content h1{
+    font-size: 50px;
+    color: darkgray;
+}
+.home-front-content p{
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+.home-front-btn{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.home-middle{
+    margin: 30px 0;
+}
+.home-middle h1{
+    font-size: 50px;
+    margin: 30px auto;
+    text-align: center;
+}
+.home-middle h2{
+    text-align: center;
+}
+.home-logo-section{
+    margin: 100px 0;
+    background-color: aliceblue;
+}
+.home-logos{
+    height: 40vh;
+    width: 100%;
+}
+.home-logos img{
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+.home-footer{
+    text-align: center;
+    height: 90vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+     url("C:\Users\daksh\Desktop\Project\client\public\history.jpg");
+    background-size: 100% 100%;
+}
+.home-footer h1{
+    font-size: 50px;
+    margin: 40px 0;
+    padding-top: 50px;
+    /* color: aliceblue; */
+    color: floralwhite;
+}
+.home-footer h3{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+/* ##################Footer Style########### */
+
+footer{
+    background-color: slategray;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ############# About Page ######### */
+
+.about{
+    margin: 50px auto;
+    width: 70vw;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px 10px rgb(184, 184, 184);
+}
+.about h1{
+    font-size: 100px;
+    margin: 40px 20px;
+}
+.about-p{
+    margin-top: 60px;
+    padding: 20px;
+}
+.about-p h1{
+    width: 60px;
+    height: 60px;
+    margin-left: 200px;
+    background-color: black;
+}
+.about img{
+    margin: 30px 10px;
+    display: inline;
+    width: 300px;
+    height: 90%;
+}
+/* ################Registered Page ############ */
+
+table ,th ,td{
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 5px 10px;
+    border-collapse: collapse;
+}
+.table-btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* ###########3 Edit Page ######## */
+
+.edit-page{
+    margin: 100px auto;
+    width: 50vw;
+    height: 50vh;
+}
+.edit-page img{
+    width: 150px;
+    margin: 20px 230px;
+}
+.edit-btn{
+    padding: 5px 10px ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:720px) {
+    /* ######Root PAge####### */
+    .root-page-content{
+        width: auto;
+    }
+    .root-page-content>h1{
+        font-size: 30px;
+    }
+    .root-page-content p{
+        font-size: 15px;
+    }
+    .root-page-content span{
+        font-size: 15px;
+    }
+
+    /* #######33 Login Page ####### */
+    .page{
+        flex-direction: column;
+        width: auto;
+    }
+    .page-left{
+        width: auto;
+    }
+    .page-left-content p{
+        font-size: 20px;
+    }
+    form input{
+        width: auto;
+    }
+    .page-right{
+        margin-top: 150px;
+        width: auto;
+    }
+    .page-signup-btn{
+        background-color: #2f55a5;
+    }
+
+    /* #######Register Page##### */
+    .register-content{
+        flex-direction: column;
+    }
+    .register-left{
+        width: auto;
+    }
+    .register-left-content{
+        position: static;
+    }
+    .register-right{
+        width: auto;
+    }
+
+    /* ######Home Page##### */
+    .home-head button{
+        margin: 5px 10px;
+    }
+    .home-front-content{
+        width: auto;
+        padding-top: 100px;
+        padding-left: 70px;
+    }
+    .home-front-content h1{
+        font-size: 30px;
+    }
+    .home-front-content p{
+        font-size: 20px;
+    }
+    .home-middle h1{
+        font-size: 30px;
+    }
+    .home-middle h2{
+        font-size: 20px;
+    }
+    .home-logos{
+        height: auto;
+        padding-left: 70px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    /* #####About Page##### */
+    .about{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .about h1{
+        font-size: 70px;
+    }
+    /* #####REgister Page##### */
+    form{
+        overflow-x: auto;
+    }
+    /* #####EDIT PAGE##### */
+    .edit-page{
+        width: auto;
+        height: auto;
+    }
+    .edit-page img{
+        margin: 10px 50px;
+    }
+    .edit-btn{
+        display: block;
+        margin-left: 10px;
+    }
+}

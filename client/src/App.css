@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: Open Sans, BlinkMacSystemFont,Segoe UI, Roboto,Helvetica Neue, Arial, sans-serif; */
+  scroll-behavior: smooth;
+}
